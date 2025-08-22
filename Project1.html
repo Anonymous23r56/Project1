@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Intellect</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: whitesmoke;
+        }
+        header {
+             background: #222;
+             color: #fff;
+             padding: 20px 0; 
+            }
+    .nav { display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: auto; }
+    .nav ul { list-style: none; display: flex; gap: 30px; margin: 0; padding: 0; }
+    .nav ul li { display: inline; }
+    .nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+    .nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    .nav ul li a:hover {
+        color: #b6ff00;
+    }
+    .logo { font-size: 1.5em; font-weight: bold; }
+    .hero { position: relative; background: #000; color: #fff; text-align: center; }
+    .hero img { width: 100%; max-height: 350px; object-fit: cover; opacity: 0.5; }
+    .hero-content { position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); }
+    .hero-content h1 { font-size: 2.5em; color: #b6ff00; margin: 0; }
+    .hero-content p { font-size: 1.2em; }
+    .section { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    .section-title { text-align: center; font-size: 2em; margin-bottom: 20px; }
+    .services, .process { display: flex; justify-content: space-between; gap: 20px; }
+    .service-box, .process-box { background: #fff; padding: 30px 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); flex: 1; text-align: center; }
+    .service-box, .process-box {
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        flex: 1;
+        text-align: center;
+        transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .service-box:hover, .process-box:hover {
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        transform: translateY(-5px) scale(1.03);
+    }
+    .service-icon { font-size: 2em; margin-bottom: 10px; color: #b6ff00; }
+    .process-box img { 
+        width: 100%; 
+        max-height: 170px;
+         object-fit: cover; 
+         border-radius: 6px; 
+         margin-bottom: 10px; 
+        }
+    .process-section {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        background: #222;
+        padding: 60px 0 60px 0;
+    }
+    .process {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .process-title {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: green;
+    }
+    @media (max-width: 900px) {
+            .services, .process { flex-direction: column; }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="Gemini_Generated_Image_d0hbo3d0hbo3d0hb.png" alt="Logo" style="height:50px; vertical-align:middle;"> CodeXTREAM
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <img src="Gemini_Generated_Image_pxfttopxfttopxft.png" alt="Business Intellect Hero">
+            <div class="hero-content">
+                <h1>BUSINESS INTELLECT</h1>
+                <p>We Create Best Opportunities</p>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-title">OUR SERVICES</div>
+            <div class="services">
+                <article class="service-box">
+                    <div class="service-icon">&#128188;</div>
+                    <h3>Consulting</h3>
+                    <p>Our consulting services are designed to help businesses identify challenges and develop effective strategies for growth. We offer:<br>
+                    <b>Business Strategy Development:</b>Crafting customized plans to achieve your business goals.<br>
+                    <b>Market Research and Analysis:</b> Providing insights to help you understand your industry landscape.<br>
+                    <b>Operational Efficiency: </b>Streamlining processes to maximize productivity and reduce costs.</p>
+                </article>
+                <article class="service-box">
+                    <div class="service-icon">📆📊</div>
+                    <h3>Project Management</h3>
+                    <p>Our project management services ensure that your projects are completed on time and within budget. We offer:<br>
+                    <b>Project Planning and Execution:</b>Comprehensive planning and management throughout the project lifecycle.<br>
+                    <b>Risk Management:</b>Identifying and mitigating potential risks to ensure project success.<br>
+                    <b>Performance Monitoring:</b>Regular updates and assessments to keep projects on track.</p>
+                </article>
+                <article class="service-box">
+                    <div class="service-icon">&#128187;</div>
+                    <h3>Web-Development</h3>
+                    <p>We specialize in creating user-friendly, responsive websites that reflect your brand identity. Our web development services include:<br><b>Custom Website Design:</b> Tailored designs that capture your brand’s essence.<br>
+                    <b>E-commerce Solutions:</b> Building online stores that drive sales and enhance customer experience.<br>
+                    <b> Website Maintenance:</b> Ongoing support to ensure your website runs smoothly.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="process-section" id="process">
+            <div class="process-title">OUR PROCESS</div>
+            <div class="process">
+                <article class="process-box">
+                    <img src="Gemini_Generated_Image_z0n7w9z0n7w9z0n7.png" alt="Designing">
+                    <h4>Designing</h4>
+                    <p>We design systems to last and stand the test of time</p>
+                </article>
+                <article class="process-box">
+                    <img src="Gemini_Generated_Image_67oapj67oapj67oa.png" alt="Development">
+                    <h4>Development</h4>
+                    <p>After careful analysis, We develop systems to solve problems in Real-time situations.</p>
+                </article>
+                <article class="process-box">
+                    <img src="Gemini_Generated_Image_67oapj67oapj67oa (1).png" alt="Quality">
+                    <h4>Quality</h4>
+                    <p>We focus on quality rather than quantity</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="contact-info contact-inline" id="contact">
+            <span class="footer-icon">&#127968;</span> 123 Main Street, Lagos, Nigeria
+            <span class="footer-separator">|</span>
+            <span class="footer-icon">&#128222;</span> +234 800 123 4567
+            <span class="footer-separator">|</span>
+            <span class="footer-icon">&#128231;</span> info@codextream.com
+        </div>
+    </footer>
+    <style>
+        .site-footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0 10px 0;
+            margin-top: 40px;
+        }
+        .contact-inline {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .footer-separator {
+            color: #b6ff00;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .site-footer .contact-info strong {
+            font-size: 1.2em;
+            color: #b6ff00;
+        }
+        .site-footer .copyright {
+            margin-top: 18px;
+            font-size: 0.95em;
+            color: #aaa;
+        }
+        .footer-icon {
+            font-size: 1.2em;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</body>
+</html>
